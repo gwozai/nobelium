@@ -72,31 +72,33 @@ const Header = ({ navBarTitle, fullWidth }) => {
           <Link href="/">
             <a aria-label={BLOG.title}>
               <div className="h-6">
-                <svg
+              <svg
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                >
+                <rect
                   width="24"
                   height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  xmlns="http://bt.gwozai.com:9000/picshow/image/aao4e-qgej3.svg"
-                >
-                  <rect
-                    width="24"
-                    height="24"
-                    className="fill-current text-black dark:text-white"
-                  />
-                  <rect width="24" height="24" fill="url(#paint0_radial)" />
+                  className="fill-current text-black dark:text-white"
+                />
+                <rect width="24" height="24" fill="url(#paint0_radial)" />
                   <defs>
-                    <radialGradient
-                      id="paint0_radial"
-                      cx="0"
-                      cy="0"
-                      r="1"
-                      gradientUnits="userSpaceOnUse"
-                      gradientTransform="rotate(45) scale(39.598)"
-                    >
-                      <stop stopColor="#CFCFCF" stopOpacity="0.6" />
-                      <stop offset="1" stopColor="#E9E9E9" stopOpacity="0" />
-                    </radialGradient>
+                  <radialGradient
+                    id="paint0_radial"
+                    cx="0"
+                    cy="0"
+                    r="1"
+                    gradientUnits="userSpaceOnUse"
+                    gradientTransform="rotate(45) scale(39.598)"
+                  >
+                    <stop stopColor="#CFCFCF" stopOpacity="0.6" />
+                {/* 渐变左上角的颜色。把 #CFCFCF 替换成想要的颜色，把 0.6 替换成想要的透明度 */}
+                    <stop offset="1" stopColor="#E9E9E9" stopOpacity="0" />
+                {/* 渐变右下角的颜色。把 #E9E9E9 替换成想要的颜色，把 0 替换成想要的透明度。1是完全不透明，0是完全透明*/}
+                  </radialGradient>
                   </defs>
                 </svg>
               </div>

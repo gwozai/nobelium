@@ -3,7 +3,7 @@ const BLOG = {
   author: 'gwozai',
   email: 'gwozai@gwozai.com',
   link: 'https://nobelium.gwozai.com',
-  description: '人要自己成全自己',
+  description: ' | The Sense of Design & Life',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
