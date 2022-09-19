@@ -3,7 +3,7 @@ const BLOG = {
   author: 'gwozai',
   email: 'gwozai@gwozai.com',
   link: 'https://nobelium.gwozai.com',
-  description: ' | The Sense of Design',
+  description: ' | The Sense of Design & Life',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
