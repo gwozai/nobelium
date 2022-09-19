@@ -1,5 +1,5 @@
 const BLOG = {
-  title: 'G',
+  title: '拿起笔做刀枪',
   author: 'gwozai',
   email: 'gwozai@gwozai.com',
   link: 'https://nobelium.gwozai.com',
