@@ -8,8 +8,10 @@ const NavBar = () => {
   const links = [
     { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
     { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
-    { id: 2, name: locale.NAV.RSS, to: '/feed', show: true },
-    { id: 3, name: locale.NAV.SEARCH, to: '/search', show: true }
+    { id: 2, name: locale.NAV.Tools, to: '/tools', show: true },
+    { id: 3, name: locale.NAV.RSS, to: '/feed', show: true },
+    { id: 4, name: locale.NAV.SEARCH, to: '/search', show: true }
+
   ]
   return (
     <div className="flex-shrink-0">
@@ -75,7 +77,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                   height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns="http://pic.gwozai.com/picshow/2022/09/19/amkha-6rodi.svg"
                 >
                   <rect
                     width="24"
