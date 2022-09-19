@@ -8,7 +8,7 @@ const NavBar = () => {
   const links = [
     { id: 0, name: locale.NAV.INDEX, to: BLOG.path || '/', show: true },
     { id: 1, name: locale.NAV.ABOUT, to: '/about', show: BLOG.showAbout },
-    { id: 2, name: locale.NAV.Tools, to: '/tools', show: true },
+    { id: 2, name: locale.NAV.TOOLS, to: '/toolss', show: true },
     { id: 3, name: locale.NAV.RSS, to: '/feed', show: true },
     { id: 4, name: locale.NAV.SEARCH, to: '/search', show: true }
 
@@ -77,7 +77,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                   height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  xmlns="http://pic.gwozai.com/picshow/2022/09/19/amkha-6rodi.svg"
+                  xmlns="http://bt.gwozai.com:9000/picshow/image/aao4e-qgej3.svg"
                 >
                   <rect
                     width="24"
