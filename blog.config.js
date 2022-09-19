@@ -3,7 +3,7 @@ const BLOG = {
   author: 'gwozai',
   email: 'gwozai@gwozai.com',
   link: 'https://nobelium.gwozai.com',
-  description: '人要自己成全自己',
+  description: ' | The Sense of Design',
   lang: 'zh-CN', // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES']
   appearance: 'auto', // ['light', 'dark', 'auto'],
   font: 'sans-serif', // ['sans-serif', 'serif']
@@ -12,7 +12,7 @@ const BLOG = {
   path: '', // leave this empty unless you want to deploy Nobelium in a folder
   since: 2022, // If leave this empty, current year will be used.
   postsPerPage: 7,
-  sortByDate: true,
+  sortByDate: false,
   showAbout: true,
   showArchive: true,
   autoCollapsedNavBar: false, // The automatically collapsed navigation bar

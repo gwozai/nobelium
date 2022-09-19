@@ -77,7 +77,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                   height="24"
                   viewBox="0 0 24 24"
                   fill="none"
-                  xmlns="http://bt.gwozai.com:9000/picshow/image/aao4e-qgej3.svg"
+                  xmlns="http://www.w3.org/2000/svg"
                 >
                   <rect
                     width="24"
