@@ -11,7 +11,6 @@ const NavBar = () => {
     { id: 2, name: locale.NAV.TOOLS, to: '/toolss', show: true },
     { id: 3, name: locale.NAV.RSS, to: '/feed', show: true },
     { id: 4, name: locale.NAV.SEARCH, to: '/search', show: true }
-
   ]
   return (
     <div className="flex-shrink-0">
@@ -95,7 +94,7 @@ const Header = ({ navBarTitle, fullWidth }) => {
                       gradientTransform="rotate(45) scale(39.598)"
                     >
                       <stop stopColor="#FFFFE0" stopOpacity="0.6" />
-                      <stop offset="1" stopColor="#FFD700	" stopOpacity="0" />
+                      <stop offset="1" stopColor="#FFD700" stopOpacity="0" />
                     </radialGradient>
                   </defs>
                 </svg>
