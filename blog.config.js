@@ -1,5 +1,5 @@
 const BLOG = {
-  title: '疯狂部落',
+  title: 'G',
   author: 'gwozai',
   email: 'gwozai@gwozai.com',
   link: 'https://nobelium.gwozai.com',
